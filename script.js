@@ -32,6 +32,7 @@ const increasePeople = () => {
 const decreasePeople = () => {
 
   if(numofpeople <=1){
+    throw "Hey! the restaurant doesn't owe you money (-value)"
     return;
   }
 
